@@ -11,8 +11,8 @@
 
 </head>
 <body class=>
-     <header>
-     <nav>
+     <header class="md:container md:mx-auto">
+     <nav class="justify-center">
           <div class="navbar bg-base-100 grid  lg:grid-cols-3">
                <div class="navbar-start">
                  <div class="dropdown">
@@ -45,39 +45,40 @@
                </div>
              </div>
      </nav>
-     <section class="">
+     <section class="gap-7 grid md:col-span-1 lg:row-auto">
           <div class="hero min-h-screen rounded-sm" style="background-image: url(images/banner.png);">
                <div class=" bg-opacity-60"></div>
                <div class="hero-content text-center text-neutral-content">
                  <div class="max-w-md">
-                   <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with<br><span class="">P Paribahan</span> </h1>
+                   <h1 class="mb-5 text-4xl font-bold">End-to-End Travel with<br><span class="text-lime-600">P Paribahan</span> </h1>
                    
                    <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                   <button class="btn btn-primary">Buy Tickets</button>
+                   <button class="btn  bg-lime-600">Buy Tickets</button>
                  </div>
                </div>
              </div>
      </section>
      </header>
-     <main class="my-7">
+     <main class="my-7 md:container md:mx-auto">
          <section>
           <h1 class="text-center font-extrabold text-3xl text-black">Best offers for you</h1>
-          <div class="flex gap-3 justify-center my-2">
-            <div>
-              <div class="card w-96 bg-primary text-primary-content">
-                <div class="card-body">
+          <div class=" gap-3  my-2 w-100% grid md:grid-cols-1 lg:grid-cols-2">
+            <div class=" max-w-3xl">
+              <div class="card w-96 bg-yellow-600 text-primary-content ">
+                <div class="card-body  h-1/2">
                   <h2 class="card-title">15% OFF</h2>
                   <p>on your next purchase</p>
                   <P>use by january 2024</P>
-                  <div class="card-actions flex-1">
+                  <div class="card-actions flex-col">
                      <h2>NEW<sub>15</sub></h2>
                      <p>Coupon Code</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div><div class="card w-96 bg-primary text-primary-content">
-              <div class="card-body">
+            <div class="to-50% max-w-3xl">
+              <div class="card w-96 bg-lime-500 text-primary-content">
+              <div class="card-body h-1/2 ">
                 <h2 class="card-title">20%OFF</h2>
                 <p>on your next purchase</p>
                 <p>use by january 2024</p>
@@ -89,7 +90,9 @@
             </div>
           </div>
           </div>
-          <button class="btn btn-outline  btn-success justify-center text-center">See All Offers</button>
+          <div class="text-center">
+          <button class="btn btn-outline  btn-success ">See All Offers</button>
+        </div>
          </section>
          <section class="my-4">
          
@@ -97,13 +100,116 @@
           <p class="text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
           <div class="justify-center my-4">
            <div class="flex">
-            <div>
+            <div class="flex">
               <img src="images/bus-logo.png" alt="">
             <h2>Greenline Paribahan</h2>
             <p>Coach- 009-WEB ! AC_Business</p>
             </div>
-            <button class="btn text-#6ee7b7"><img src="images/seat-gray.png" alt=""> 40 Seats left </button>
-           </div>
+            <button class="btn bg-lime-300 gap-12"><img src="images/seat-gray.png" alt=""> 40 Seats left </button>
+            
+            </div> 
+            
+          </div>
+        </div>
+       
+         </section>
+         <section class="my-14">
+          <div>
+            <div>
+              <h3>Select Your Seat</h3>
+              <p>----------------------------------------------------</p>
+              <div class="flex gap-x-24">
+              <div class="flex">
+                <img src="images/seat-gray.png" alt="">
+              <p>Available</p>
+              </div>
+              <img src="images/seat-green.png" alt="">
+               <p class="text-lime-500">Selected</p> 
+                      
+              </div>
+              <p>---------------------------------------------------</p>  
+               <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed W-50%">
+                A
+                <a role="tab" class="tab">A1</a>
+                <a role="tab" class="tab ">A2</a>
+                <a role="tab" class="tab">A3</a>
+                <a role="tab" class="tab">A4</a>
+              </div> 
+              <!--2 sit number  -->
+              
+              <div role="tablist" class="tabs tabs-boxed">
+                <P>B</P>
+                <a role="tab" class="tab">B1</a>
+                <a role="tab" class="tab tab-active">B2</a>
+                <a role="tab" class="tab">B3</a>
+                <a role="tab" class="tab">B4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+              <!--1 sit number  -->
+              <div role="tablist" class="tabs tabs-boxed">
+                <a role="tab" class="tab">Tab 1</a>
+                <a role="tab" class="tab tab-active">Tab 2</a>
+                <a role="tab" class="tab">Tab 3</a>
+                <a role="tab" class="tab">Tab 4</a>
+              </div> 
+            </div>
+            <div></div>
           </div>
          </section>
      </main>
